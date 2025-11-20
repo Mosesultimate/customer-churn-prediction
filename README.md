@@ -41,20 +41,17 @@ customer-churn-prediction/
 
 ---
 
-## 📸 Dashboard Screenshots**
-
-> *(Screenshots of the dashboards)*
+## 📸 Dashboard Screenshots
 
 ### Churn Overview Dashboard
-![Churn Overview](./Images/Screenshot-2025-11-20-155808.png)
+![Churn Overview](Images/Screenshot%202025-11-20%20155808.png)
 
 ### Customer Insights Dashboard
-![Customer Insights](./Images/Screenshot-2025-11-20-160018.png)
+![Customer Insights](Images/Screenshot%202025-11-20%20160018.png)
 
 ### Prediction Analysis Dashboard
-![Prediction Analysis](./Images/Screenshot-2025-11-20-160123.png)
+![Prediction Analysis](Images/Screenshot%202025-11-20%20160123.png)
 
----
 
 ## **💻 Getting Started**
 
