@@ -43,8 +43,10 @@ customer-churn-prediction/
 
 ## **📊 Demo / Screenshots**
 
-> *(Add screenshots of your dashboards here for visual impact)*
-
+> *(Screenshots of the dashboards)*
+Screenshot 2025-11-20 155808.png
+Screenshot 2025-11-20 160018.png
+Screenshot 2025-11-20 160123.png
 ---
 
 ## **💻 Getting Started**
