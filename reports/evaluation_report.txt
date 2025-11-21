@@ -1,0 +1,92 @@
+================================================================================
+MODEL EVALUATION REPORT
+================================================================================
+
+Model: LogisticRegression
+
+--------------------------------------------------------------------------------
+PERFORMANCE METRICS
+--------------------------------------------------------------------------------
+
+Training Set:
+  ACCURACY: 0.7556
+  PRECISION: 0.5255
+  RECALL: 0.8140
+  F1: 0.6387
+  ROC_AUC: 0.8551
+
+Test Set:
+  ACCURACY: 0.7360
+  PRECISION: 0.5017
+  RECALL: 0.7995
+  F1: 0.6165
+  ROC_AUC: 0.8476
+  AVERAGE_PRECISION: 0.6665
+  BRIER_SCORE: 0.1649
+
+--------------------------------------------------------------------------------
+THRESHOLD OPTIMIZATION
+--------------------------------------------------------------------------------
+
+Optimal Threshold: 0.560
+Metrics at Optimal Threshold:
+  ACCURACY: 0.7665
+  PRECISION: 0.5430
+  RECALL: 0.7594
+  F1: 0.6332
+
+--------------------------------------------------------------------------------
+TOP 20 FEATURE IMPORTANCES
+--------------------------------------------------------------------------------
+
+ 1. categorical__tenure_group_72+              9.35%
+ 2. numeric__has_fiber                         7.68%
+ 3. numeric__services_count                    7.25%
+ 4. numeric__avg_monthly_charge_per_service    6.96%
+ 5. numeric__MonthlyCharges                    6.96%
+ 6. numeric__Contract_ordinal                  5.32%
+ 7. numeric__charges_ratio                     4.02%
+ 8. categorical__InternetService_No            3.95%
+ 9. numeric__long_tenure_flag                  3.68%
+10. numeric__StreamingMovies                   3.65%
+11. numeric__StreamingTV                       3.57%
+12. categorical__Contract_Two year             3.09%
+13. numeric__MultipleLines                     2.82%
+14. categorical__tenure_group_24-47            2.71%
+15. categorical__InternetService_DSL           2.36%
+16. categorical__tenure_group_48-71            2.33%
+17. numeric__total_charges_per_month           2.06%
+18. categorical__InternetService_Fiber optic   1.85%
+19. numeric__PaperlessBilling                  1.75%
+20. categorical__PaymentMethod_Mailed check    1.59%
+
+--------------------------------------------------------------------------------
+CLASSIFICATION REPORT
+--------------------------------------------------------------------------------
+
+Per-Class Metrics:
+
+0:
+  precision: 0.9077
+  recall: 0.7130
+  f1-score: 0.7987
+  support: 1035.0000
+
+1:
+  precision: 0.5017
+  recall: 0.7995
+  f1-score: 0.6165
+  support: 374.0000
+accuracy: 0.7360
+
+macro avg:
+  precision: 0.7047
+  recall: 0.7563
+  f1-score: 0.7076
+  support: 1409.0000
+
+weighted avg:
+  precision: 0.8000
+  recall: 0.7360
+  f1-score: 0.7503
+  support: 1409.0000

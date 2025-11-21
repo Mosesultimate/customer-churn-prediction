@@ -1,0 +1,268 @@
+{
+  "model_name": "LogisticRegression",
+  "metrics": {
+    "train": {
+      "accuracy": 0.755591054313099,
+      "precision": 0.5254749568221071,
+      "recall": 0.8140468227424749,
+      "f1": 0.6386775124639202,
+      "roc_auc": 0.8551068593790527
+    },
+    "test": {
+      "accuracy": 0.7359829666430092,
+      "precision": 0.5016778523489933,
+      "recall": 0.7994652406417112,
+      "f1": 0.6164948453608248,
+      "roc_auc": 0.8475548322095636,
+      "average_precision": 0.666479249428969,
+      "brier_score": 0.16487433400445203
+    }
+  },
+  "optimal_threshold": 0.5599999999999997,
+  "threshold_metrics": {
+    "threshold": 0.5599999999999997,
+    "accuracy": 0.7665010645848119,
+    "precision": 0.5430210325047801,
+    "recall": 0.7593582887700535,
+    "f1": 0.633221850613155
+  },
+  "feature_importance": [
+    {
+      "feature": "categorical__tenure_group_72+",
+      "importance": 0.903977898437183,
+      "importance_pct": 9.351961927706535
+    },
+    {
+      "feature": "numeric__has_fiber",
+      "importance": 0.7421596500687528,
+      "importance_pct": 7.6778965544645805
+    },
+    {
+      "feature": "numeric__services_count",
+      "importance": 0.7009633821766643,
+      "importance_pct": 7.25170700983471
+    },
+    {
+      "feature": "numeric__avg_monthly_charge_per_service",
+      "importance": 0.6731878469796513,
+      "importance_pct": 6.964359555728575
+    },
+    {
+      "feature": "numeric__MonthlyCharges",
+      "importance": 0.6731878469796513,
+      "importance_pct": 6.964359555728575
+    },
+    {
+      "feature": "numeric__Contract_ordinal",
+      "importance": 0.514287384073244,
+      "importance_pct": 5.320479675518286
+    },
+    {
+      "feature": "numeric__charges_ratio",
+      "importance": 0.3886184001859585,
+      "importance_pct": 4.020390862684188
+    },
+    {
+      "feature": "categorical__InternetService_No",
+      "importance": 0.3822799586295404,
+      "importance_pct": 3.954817507163999
+    },
+    {
+      "feature": "numeric__long_tenure_flag",
+      "importance": 0.35527649838802744,
+      "importance_pct": 3.675457433724643
+    },
+    {
+      "feature": "numeric__StreamingMovies",
+      "importance": 0.3527656734769529,
+      "importance_pct": 3.6494820874068834
+    },
+    {
+      "feature": "numeric__StreamingTV",
+      "importance": 0.3453483525266064,
+      "importance_pct": 3.572747353899413
+    },
+    {
+      "feature": "categorical__Contract_Two year",
+      "importance": 0.29900107537856585,
+      "importance_pct": 3.0932688488489295
+    },
+    {
+      "feature": "numeric__MultipleLines",
+      "importance": 0.27220983718338176,
+      "importance_pct": 2.816104285389318
+    },
+    {
+      "feature": "categorical__tenure_group_24-47",
+      "importance": 0.2615018011291414,
+      "importance_pct": 2.705325973582258
+    },
+    {
+      "feature": "categorical__InternetService_DSL",
+      "importance": 0.2279200066270138,
+      "importance_pct": 2.3579107721808654
+    },
+    {
+      "feature": "categorical__tenure_group_48-71",
+      "importance": 0.22540597873074686,
+      "importance_pct": 2.3319022898808806
+    },
+    {
+      "feature": "numeric__total_charges_per_month",
+      "importance": 0.1992704531879432,
+      "importance_pct": 2.0615212990851353
+    },
+    {
+      "feature": "categorical__InternetService_Fiber optic",
+      "importance": 0.17866422786317496,
+      "importance_pct": 1.8483428186774464
+    },
+    {
+      "feature": "numeric__PaperlessBilling",
+      "importance": 0.16955472838146327,
+      "importance_pct": 1.7541019169024015
+    },
+    {
+      "feature": "categorical__PaymentMethod_Mailed check",
+      "importance": 0.1533153485626279,
+      "importance_pct": 1.5860999535160503
+    },
+    {
+      "feature": "numeric__is_electronic_payment",
+      "importance": 0.14992050003171906,
+      "importance_pct": 1.5509790791381728
+    },
+    {
+      "feature": "categorical__tenure_group_12-23",
+      "importance": 0.14854283713253127,
+      "importance_pct": 1.5367266831396735
+    },
+    {
+      "feature": "categorical__Contract_One year",
+      "importance": 0.12872089814821014,
+      "importance_pct": 1.331661914371353
+    },
+    {
+      "feature": "categorical__tenure_group_0-5",
+      "importance": 0.12362155593839717,
+      "importance_pct": 1.27890746729365
+    },
+    {
+      "feature": "categorical__PaymentMethod_Bank transfer (automatic)",
+      "importance": 0.11153362030178099,
+      "importance_pct": 1.1538536202320813
+    },
+    {
+      "feature": "numeric__DeviceProtection",
+      "importance": 0.1057811311942369,
+      "importance_pct": 1.0943421441038437
+    },
+    {
+      "feature": "numeric__TotalCharges",
+      "importance": 0.10312734570964399,
+      "importance_pct": 1.0668878215378617
+    },
+    {
+      "feature": "numeric__Dependents",
+      "importance": 0.09646673271367796,
+      "importance_pct": 0.9979814917911392
+    },
+    {
+      "feature": "numeric__PhoneService",
+      "importance": 0.09413757255585627,
+      "importance_pct": 0.9738855297580661
+    },
+    {
+      "feature": "categorical__PaymentMethod_Credit card (automatic)",
+      "importance": 0.09258205085308005,
+      "importance_pct": 0.9577931233317211
+    },
+    {
+      "feature": "numeric__tenure",
+      "importance": 0.08404920751226856,
+      "importance_pct": 0.8695179274488226
+    },
+    {
+      "feature": "numeric__tenure_years",
+      "importance": 0.08404920751225846,
+      "importance_pct": 0.869517927448718
+    },
+    {
+      "feature": "categorical__PaymentMethod_Electronic check",
+      "importance": 0.07410471767575101,
+      "importance_pct": 0.7666387635861242
+    },
+    {
+      "feature": "numeric__OnlineSecurity",
+      "importance": 0.06274171986989369,
+      "importance_pct": 0.6490846474415745
+    },
+    {
+      "feature": "numeric__SeniorCitizen",
+      "importance": 0.05668268774632617,
+      "importance_pct": 0.5864018784974265
+    },
+    {
+      "feature": "numeric__OnlineBackup",
+      "importance": 0.04098947805349724,
+      "importance_pct": 0.4240502327054473
+    },
+    {
+      "feature": "numeric__Partner",
+      "importance": 0.0342323638346424,
+      "importance_pct": 0.3541455646542227
+    },
+    {
+      "feature": "numeric__TechSupport",
+      "importance": 0.026423618530283768,
+      "importance_pct": 0.27336141172772976
+    },
+    {
+      "feature": "numeric__gender",
+      "importance": 0.0153115236940896,
+      "importance_pct": 0.15840297300393882
+    },
+    {
+      "feature": "categorical__tenure_group_6-11",
+      "importance": 0.01045566237763584,
+      "importance_pct": 0.1081674194177201
+    },
+    {
+      "feature": "categorical__Contract_Month-to-month",
+      "importance": 0.0038137638665947157,
+      "importance_pct": 0.03945469744704723
+    },
+    {
+      "feature": "numeric__has_multiple_services",
+      "importance": 0.0,
+      "importance_pct": 0.0
+    }
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.9077490774907749,
+      "recall": 0.7130434782608696,
+      "f1-score": 0.7987012987012987,
+      "support": 1035.0
+    },
+    "1": {
+      "precision": 0.5016778523489933,
+      "recall": 0.7994652406417112,
+      "f1-score": 0.6164948453608248,
+      "support": 374.0
+    },
+    "accuracy": 0.7359829666430092,
+    "macro avg": {
+      "precision": 0.7047134649198841,
+      "recall": 0.7562543594512904,
+      "f1-score": 0.7075980720310617,
+      "support": 1409.0
+    },
+    "weighted avg": {
+      "precision": 0.7999629609520763,
+      "recall": 0.7359829666430092,
+      "f1-score": 0.7503370591347002,
+      "support": 1409.0
+    }
+  }
+}
